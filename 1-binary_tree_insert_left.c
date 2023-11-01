@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * binary_tree_insert_left - Inserts a new node as the left-child of another node
+ * binary_tree_insert_left - Inserts a new node
+ *                           as the left-child of another node
  * @parent: Pointer to the node where to insert new node as left-child
  * @value: Integer value to be inputed into the new node
  * Return: the new node
