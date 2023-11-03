@@ -20,7 +20,9 @@ size_t count_node(const binary_tree_t *tree, size_t node_count)
 	 * is that node_count should be updated before being passed
 	 * into the recursive call for tree->right
 	 */
-	count_node(tree->right, node_count);
+	node_count = count_node(tree->right, node_count);
+
+	return (node_count);
 }
 
 /**
