@@ -3,7 +3,8 @@
 /**
  * _depth_ - Recursively measure the depth of a node in a tree
  * @tree: Pointer to node
- * init_depth: Initial depth, defaults to 0
+ * @init_depth: Initial depth, defaults to 0
+ * Return: the measured depth of node @tree
  */
 size_t _depth_(const binary_tree_t *tree, size_t init_depth)
 {
@@ -20,6 +21,7 @@ size_t _depth_(const binary_tree_t *tree, size_t init_depth)
 
 /**
  * binary_tree_depth - Measures the depth of a node in a Binary tree
+ *                     using the helper function `_depth_()`
  * @tree: Pointer to the node where to measure
  * Return: depth
  */
