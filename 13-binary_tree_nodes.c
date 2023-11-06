@@ -29,7 +29,7 @@ int _at_least_one_child_(const binary_tree_t *node)
 }
 
 /**
- * _count_non_leaf_ - Counts the number of 
+ * _count_non_leaf_ - Counts the number of
  *                    non-leaf(at least one child) node
  *                    in a Binary Tree
  * @tree: Binary tree to check for these nodes
